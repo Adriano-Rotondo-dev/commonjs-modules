@@ -1,14 +1,14 @@
-const {fullName} = require('./names')
-const {hobbies} = require('./hobbies')
+const { fullName } = require("./names");
+const { hobbies } = require("./hobbies");
 
 function newPerson() {
-return {
-    fullName:fullName('Adriano', 'Rotondo'),
-    hobbies: hobbies(),
+  return {
+    fullName: fullName("firstName", "lastName"),
+    hobbies: hobbies("hobbyOne", "hobbyTwo", "hobbyThree"),
+  };
 }
-}
-console.log(newPerson())
+console.log(newPerson());
 
 module.exports = {
-    newPerson
-}
+  newPerson,
+};

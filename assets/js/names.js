@@ -1,8 +1,7 @@
-
-function fullName (firstName, lastName) {
-    return firstName, lastName
+function fullName(firstName, lastName) {
+  return firstName + " " + lastName;
 }
 
 module.exports = {
-    fullName
-}
+  fullName,
+};
