@@ -9,6 +9,4 @@ function newPerson() {
 }
 console.log(newPerson());
 
-module.exports = {
-  newPerson,
-};
+// module.exports = {newPerson};
