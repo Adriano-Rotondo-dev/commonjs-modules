@@ -3,10 +3,12 @@ const { hobbies } = require("./hobbies");
 
 function newPerson() {
   return {
-    fullName: fullName("firstName", "lastName"),
-    hobbies: hobbies("hobbyOne", "hobbyTwo", "hobbyThree"),
+    fullName: fullName("Adriano", "Rotondo"),
+    hobbies: hobbies(  "Gaming",
+  "Trading Card Games",
+  "Powerlifting"),
   };
 }
-console.log(newPerson());
+// console.log(newPerson());
 
-// module.exports = {newPerson};
+ module.exports = {newPerson};
