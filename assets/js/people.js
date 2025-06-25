@@ -7,6 +7,6 @@ function newPerson() {
     hobbies: hobbies("hobbyOne", "hobbyTwo", "hobbyThree"),
   };
 }
-console.log(newPerson());
+console.log(newPerson);
 
 // module.exports = {newPerson};
